@@ -4,7 +4,7 @@ public class TiposVariaveis {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-
+        //Variáveis
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
@@ -13,10 +13,10 @@ public class TiposVariaveis {
         numero = 10;
         System.out.println(numero);
 
+        //Constante e String
         final double VALOR_DE_PI = 3.14;
 
-        String meuNome = "Paola Russo";
-
+        final String meuNome = "Paola Russo";
         
     }
   
